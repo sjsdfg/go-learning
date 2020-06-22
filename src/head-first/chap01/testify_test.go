@@ -19,7 +19,7 @@ func TestSomething(t *testing.T) {
 	assert.Nil(t, nilObject)
 
 	// assert for not nil (good when you expect something)
-	var nonNilObject string = "Something"
+	var nonNilObject = "Something"
 	if assert.NotNil(t, nonNilObject) {
 
 		// now we know that object isn't nil, we are safe to make
