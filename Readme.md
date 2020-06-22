@@ -64,3 +64,11 @@ func TestSomething(t *testing.T) {
   }
 }
 ```
+
+### Introduce local variable in Gogland ide
+
+[原答案地址](https://stackoverflow.com/questions/44657806/introduce-local-variable-in-gogland-ide)
+
+You need to use CTRL+ALT+V for Windows / Linux (or CMD+ALT+V on OS X) or invoke the Refactor | Extract | Variable and then select the function call from the list and the variables will be inserted for you.
+
+
